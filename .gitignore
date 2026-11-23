@@ -1,0 +1,12 @@
+out/
+.deps/
+__pycache__/
+*.o
+*.pgm
+logs/
+src/vendor/FBInk/
+deploy/.adds/hanzi/*
+!deploy/.adds/hanzi/run.sh
+!deploy/.adds/hanzi/import/
+deploy/.adds/hanzi/import/*.txt
+!deploy/.adds/hanzi/import/README.txt

@@ -1,0 +1,3 @@
+# Run through sh so the script does not need an execute bit: .adds lives on
+# the FAT partition, which does not carry Unix permissions reliably.
+menu_item :main :Hanzi trainer :cmd_spawn :quiet:/bin/sh /mnt/onboard/.adds/hanzi/run.sh

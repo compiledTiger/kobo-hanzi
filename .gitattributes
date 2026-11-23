@@ -1,0 +1,3 @@
+src/vendor/** linguist-vendored
+data/** linguist-vendored
+build/data/** linguist-vendored
